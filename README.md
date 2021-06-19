@@ -11,9 +11,12 @@ console.log("2");
 ```
 
 Ans:
+
 Output: 
+
 "2"
 "1"
+
 Explaination: prints 1 after 100 milliseconds but 2 will be printed first because no timer set for this.
 
 2. Explain the output of the following code and why
