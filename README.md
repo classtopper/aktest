@@ -33,7 +33,9 @@ foo(0);
 ```
 
 Ans:
+
 Output:
+
 10
 9
 8
@@ -67,6 +69,7 @@ function foo(d = 5) {
 	console.log(d);
 }
 ```
+
 Explaination: Value can be intialise with default value then if nothing is passed in foo method then 5 will be printed as default.
 
 4. Explain the output of the following code and why
@@ -84,7 +87,9 @@ console.log(bar(2))
 ```
 
 Ans:
+
 Output: 3
+
 Explaination:  One method returns another method with different value as lamda expression
 
 
@@ -98,10 +103,14 @@ function double(a, done) {
 }
 ```
 Ans:
+
 Code:
+
+```jsx
 function done(b){
 return b;
 }
 
 const re = done(1);
 double(1,re);
+```
