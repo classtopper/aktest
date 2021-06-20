@@ -107,10 +107,16 @@ Ans:
 Code:
 
 ```jsx
-function done(b){
-return b;
+function done(x) {
+console.log(x);
 }
 
-const re = done(1);
-double(1,re);
+function double(a, done) {
+	setTimeout(function() {
+		done(a * 2);
+	}, 100);
+}
+
+double(3, done);
+
 ```
